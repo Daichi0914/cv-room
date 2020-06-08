@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+span {
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.afterBlock {
+  display: flex;
+}
