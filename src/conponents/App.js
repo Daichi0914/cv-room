@@ -1,9 +1,10 @@
-import React from "react";
-import { Router, Route } from "react-router-dom";
-import SignupAndSignin from "./signin/SignupAndSignIn";
+import React from 'react';
+import Home from './home/Home';
 
-const App = () => {
-  return <SignupAndSignin />;
-};
-
-export default App;
+export default () => {
+  return (
+    <div>
+      <Home/>
+    </div>
+  )
+}
