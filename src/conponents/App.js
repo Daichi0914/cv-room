@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './home/Home';
+import AppRouter from './routers/AppRouter';
 
 export default () => {
   return (
     <div>
-      <Home/>
+      <AppRouter/>
     </div>
   )
 }
