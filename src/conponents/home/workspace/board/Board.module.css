@@ -1,0 +1,36 @@
+.Board {
+    box-shadow: black 3px 3px 3px;
+    background-color: yellowgreen;
+    z-index: 1;
+    width: 30vw;
+    padding: 10px 5px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.openBtn:hover {
+    background-color: grey;
+}
+
+.CardTitle {
+  margin: 20px auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

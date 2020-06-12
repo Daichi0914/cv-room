@@ -1,0 +1,15 @@
+.Home {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.Square {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #eee;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
