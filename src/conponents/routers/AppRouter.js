@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import  {  Switch, Route,withRouter, Redirect } from 'react-router-dom';
 import Header from '../header/Header';
 import Home from '../home/Home';
-import SignupAndSighin from '../signin/SignupAndSignin'
+import SignupAndSighin from '../signin/SignupAndSignIn'
 import ForgetPassword from '../signin/ForgetPassword'
 import MyPage from '../mypage/MyPage';
 import firebase from '../../config/firebase'
@@ -12,7 +12,7 @@ const AppRoute= (props) => {
     firebase.auth().onAuthStateChanged((user) => {
       if (!user) {
         props.history.push('/auth');
-      } 
+      }
     });
   }, []);
 
