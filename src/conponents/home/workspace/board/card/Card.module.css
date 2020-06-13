@@ -1,0 +1,49 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Card {
+  width: 90vw;
+  max-width: 500px;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: aquamarine;
+  z-index: 10;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.Flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: cadetblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
