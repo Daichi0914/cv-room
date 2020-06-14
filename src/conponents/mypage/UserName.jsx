@@ -21,7 +21,7 @@ const UserName = (props) => {
     firebase.auth().currentUser.updateProfile({displayName: userName})
       .then(() => {
         window.alert('ユーザーネームを保存しました。')
-        props.history.push('/Settings')
+        props.history.push('/my-page')
       })
       .catch(error => {
         console.log(error)
@@ -30,7 +30,7 @@ const UserName = (props) => {
 
   return (
     <div style={{marginBottom: '20px'}}>
-      <p style={{marginBottom: '10px'}}>User Name</p>
+      <p style={{marginBottom: '10px', color: '#00b3b3'}}>User Name</p>
       <Form.Input
         icon='user'
         iconPosition='left'

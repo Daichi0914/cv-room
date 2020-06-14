@@ -4,10 +4,13 @@ import UserInfo from "./UserInfo";
 
 const Account = () => {
   return (
-    <div style={{display: 'flex'}}>
-      <UserInfo />
-      <UserImg />
-    </div>
+    <>
+      <h1 style={{textAlign: 'center', color: '#00b3b3'}}>Settings</h1>
+      <div style={{display: 'flex'}}>
+        <UserInfo />
+        <UserImg />
+      </div>
+    </>
   );
 };
 

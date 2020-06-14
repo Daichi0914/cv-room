@@ -25,6 +25,7 @@ const UserPass = () => {
   const user = useContext(AuthContext)
 
   const handleSignIn = () => {
+    console.log(user)
     // e.preventDefault()
     firebase.auth().signInWithEmailAndPassword(user.email, currentPass)
       .then(() => {
@@ -61,8 +62,8 @@ const UserPass = () => {
   };
 
   return (
-    <div style={{width: '170px', margin: '0 auto'}}>
-      <p className={classes.underline} onClick={() => {setIsOpen(true)}}>
+    <div style={{width: '170px', margin: '0 auto', marginTop: '40px'}}>
+      <p className={classes.linkTitle} onClick={() => {setIsOpen(true)}}>
         <Icon name='hand point right outline' />User Password
       </p>
       <Modal size='mini' open={isOpen}>

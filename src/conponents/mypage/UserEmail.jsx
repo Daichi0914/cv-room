@@ -46,8 +46,8 @@ const UserEmail = () => {
 
   return (
     <>
-      <div style={{marginBottom: '20px'}}>
-        <p style={{marginBottom: '10px'}}>User Email</p>
+      <div style={{marginTop: '40px', marginBottom: '20px'}}>
+        <p style={{marginBottom: '10px', color: '#00b3b3'}}>User Email</p>
         <Form.Input
           icon='envelope'
           iconPosition='left'
